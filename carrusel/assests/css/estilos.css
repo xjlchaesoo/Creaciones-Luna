@@ -1,0 +1,122 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sniglet&family=Sofia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+
+
+/*Tengo problemas con carrusel: queda borde de la izquierda en blanco */
+
+
+*{
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    text-align: center;
+    
+}
+
+
+.imagen{
+    text-align: center;
+    margin-top: 0px;
+    font-family: 'sofia', cursive;
+    background-color: white;
+    color: black;
+    
+
+}
+.carousel-inner{
+    
+    width: 100%;
+
+}
+
+#img_carusel {
+    
+    width: 100%;
+    opacity: 0.9;
+    cursor:pointer;
+   
+
+}
+#texto_carusel{
+    
+    text-align: left;
+    font-size: 25px;
+    color: white;
+    font-family: 'Sniglet', cursive;
+    text-shadow: 2px 2px 2px rgb(77, 75, 75);
+    
+    
+    
+}
+h1{
+    font-size: 70px;
+    font-family: 'sofia', cursive;
+
+}
+h4{
+    font-family: 'Sniglet', cursive; 
+}
+h5{
+
+    font-size: 70px;
+    font-family: 'sofia', cursive;
+    content: normal;
+}
+
+h6{
+    font-size: 26px;
+    color: white;
+    text-align: center;
+   
+
+}
+#nav{
+    text-align: center;
+    content: none;
+    color: white;
+    font-size: 30px;
+    text-shadow: 1px;
+    background-color: #dd5c37;
+    font-family: 'Sniglet', cursive;
+    box-shadow: 10px 5px 10px darkgray;
+    margin: 0%;
+      
+}
+
+.d-flex{
+    orientation: right;
+    margin: 10px;
+    text-align: right;
+    
+}
+.nav-item{
+    color: black;
+    content: none;
+}
+
+#carusel{
+   
+    margin: 0 auto;
+    width: 100%;
+    box-sizing: inherit;
+
+}
+
+
+#boton{
+    text-align: justify;
+    
+    
+}
+
+#eslogan{
+    padding: 1px;
+    height: 40px;
+    background-color: #dd5c37;
+    text-align: center;
+}
